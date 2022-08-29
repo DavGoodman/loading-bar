@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: lightgray;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.counter{
+    font-size: 50px;
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 12px;
+    background-color: lightgray;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.loading-bar-front{
+    position: absolute;
+    height: 12px;
+    background-color: orangered;
+    width: 0%;
+    border-radius: 5px;
+    border: none;
+}
